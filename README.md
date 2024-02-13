@@ -12,7 +12,22 @@ In this folder, you can find 3+1 python files. <br />
 <br />
 For using this scoring UI, the mentioned .py files should be in the same folder.<br />
 <br />
-The UI  is implemented in a way, where the user is not able to write invalid or nonsense values.<br />
+The UI is implemented in a way, where the user is not able to write invalid or nonsense values.<br />
+<br />
+HOW DOES IT WORKS: 
+After you run the UI.py you can the the 9+1 Frames for scoring a bowling game. <br />
+Under each frame a 'Score:'  can be found, where you can check your actual scores. <br />
+The cursor is in the 1st Frame's 1st entry. Here you can type in your score which can be [0..9] or "/" or "x" or "X". <br />
+If you type in an invalid value the UI going to delete it. <br />
+The cursor is auto-advanced so after you type in your score, the cursor going to move to the next possible frame.<br />
+So after you type in a vaild value into the given entry, the BowlingGame.get_UI_input() reads the value and store list.
+If possible, the calc_scores() method calulates the actual scores and soter them into a list BowlingGame.score().
+The UI display you scors with using the BowlingUI.update_ui_scores() method in a way that check the length of the BowlingGame.score list and values.
+
+
+
+
+
 <br />
 Some improvement points: <br />
 Sofver-Side: <br />
@@ -22,7 +37,7 @@ Sofver-Side: <br />
 &emsp;&emsp; If not the value should be deleted by the UI automatically. <br />
 &emsp;&emsp; If the value is correct then shall be stored and calculated the score if possible. <br />
 &emsp; 2.2. Implement the InputHandler class for validating the I/O values. Tipp: use regex! <br />
-&emsp; 2.3. Rename and cut for shorter functions the handle_frames_1_to_9 and handle_frame_10 methods.<br />
+&emsp; 2.3. Rename and cut for shorter functions the handle_frames_1_to_9(), handle_frame_10 methods() and calc_scores() <br />
 <br /> 
 Test-Side: <br />
 &emsp; 2.1. Functional and test requirements: The software and the tests should have requirements. <br />
