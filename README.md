@@ -8,7 +8,7 @@ In this folder, you can find 3+1 python files. <br />
 &emsp; 3. test.py - Here you can find some unit tests for BowlingGame.py. <br />
 &emsp; &emsp; This is not complete yet.<br />
 &emsp; &emsp; Only edge cases and  some custom cases are tested. <br />
-&emsp; +1. InputHandeler.py - Just for further improvements.... <br />
+&emsp; +1. InputHandeler.py - Just for further improvements.... (currently out of usage ) <br />
 <br />
 For using this scoring UI, the mentioned .py files should be in the same folder.<br />
 <br />
@@ -41,7 +41,7 @@ Test-Side: <br />
 &emsp; 2.2. Test input and output should be stored in a .csv or xml file. <br />
 &emsp; 2.3. Full coverage test: All methods shall be tested in valid and invalid ranges. <br />
 &emsp; 2.4. Automated UI test: In pywinauto the UI (which is implemented using by Tkinter) can be tested. <br /> 
-&emsp;&emsp; So after you have pywinauto you can create some scenarios for typing in invalid or nonsanse values into the UI. <br />
+&emsp;&emsp; So after you have pywinauto you can create some scenarios for typing in invalid or nonsense values into the UI. <br />
 &emsp;&emsp; This could be implemeted in another class, like UI_test.py.
 
 
