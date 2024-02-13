@@ -1,13 +1,14 @@
 # bowling_game_scoring
 
-This my solution of the coding challenge.<br />
+This is my solution of the coding challenge.<br />
 <br />
-In this file you can find 3 python files. <br />
+In this folder, you can find 3+1 python files. <br />
 &emsp; 1. ui.py - This is the GUI scoring a game. <br />
 &emsp; 2. BowlingGame.py - The scoring logic is implemented here. This is the quasi-backend.<br />
 &emsp; 3. test.py - Here you can find some unit tests for BowlingGame.py. <br />
-&emsp; This is not complete yet.<br />
-&emsp; Only edge cases and  some custom cases are tested. <br />
+&emsp; &emsp; This is not complete yet.<br />
+&emsp; &emsp; Only edge cases and  some custom cases are tested. <br />
+&emsp; +1. InputHandeler.py - Just for further improvements.... <br />
 <br />
 For using this scoring UI, the mentioned .py files should be in the same folder.<br />
 <br />
