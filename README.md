@@ -14,19 +14,15 @@ For using this scoring UI, the mentioned .py files should be in the same folder.
 <br />
 The UI is implemented in a way, where the user is not able to write invalid or nonsense values.<br />
 <br />
-HOW DOES IT WORKS: 
-After you run the UI.py you can the the 9+1 Frames for scoring a bowling game. <br />
-Under each frame a 'Score:'  can be found, where you can check your actual scores. <br />
+HOW DOES IT WORKS: <br />
+After you run the UI.py you can see the the 9+1 Frames for scoring a bowling game. <br />
+Under each frame a 'Score:' can be found, where you can check your actual scores. <br />
 The cursor is in the 1st Frame's 1st entry. Here you can type in your score which can be [0..9] or "/" or "x" or "X". <br />
-If you type in an invalid value the UI going to delete it. <br />
+If you type in an invalid value the UI going to delete that. <br />
 The cursor is auto-advanced so after you type in your score, the cursor going to move to the next possible frame.<br />
-So after you type in a vaild value into the given entry, the BowlingGame.get_UI_input() reads the value and store list.
-If possible, the calc_scores() method calulates the actual scores and soter them into a list BowlingGame.score().
-The UI display you scors with using the BowlingUI.update_ui_scores() method in a way that check the length of the BowlingGame.score list and values.
-
-
-
-
+So after you type in a valid value into the given entry, the BowlingGame.get_UI_input() reads the value and stores it into the BowlingGame.rolls[[][]] list. <br />
+If possible, the BowlingGame.calc_scores() method calculates the actual scores and soter them into a list BowlingGame.score[].<br />
+The UI displays your scores using the BowlingUI.update_ui_scores() method in a way that checks the length of the BowlingGame.score list and values.<br />
 
 <br />
 Some improvement points: <br />
