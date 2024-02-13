@@ -23,6 +23,7 @@ The cursor is auto-advanced so after you type in your score, the cursor going to
 So after you type in a valid value into the given entry, the BowlingGame.get_UI_input() reads the value and stores it into the BowlingGame.rolls[[][]] list. <br />
 If possible, the BowlingGame.calc_scores() method calculates the actual scores and soter them into a list BowlingGame.score[].<br />
 The UI displays your scores using the BowlingUI.update_ui_scores() method in a way that checks the length of the BowlingGame.score list and values.<br />
+You can use the RESET button to clear the scores and the rolls. <br />
 
 <br />
 Some improvement points: <br />
