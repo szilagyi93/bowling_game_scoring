@@ -27,7 +27,7 @@ You can use the RESET button to clear the scores and the rolls. <br />
 
 <br />
 Some improvement points: <br />
-Sofver-Side: <br />
+Software-Side: <br />
 &emsp; 1.1. The BowlingGame.py also should handle the invalid values.<br /> 
 &emsp;&emsp; Eg.: The use type int a value on the UI. <br />
 &emsp;&emsp; The BowlingGame class checks this value and returns a signal that indicates if the value is OK or not.<br />
